@@ -1,0 +1,31 @@
+{
+    "name": "vmasciotta/shopware-province-italiane",
+    "description": "Province Italiane for Shopware 6",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valerio Masciotta"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.4.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "Vmasciotta\\ProvinceItaliane\\VmasciottaProvinceItaliane",
+        "label": {
+            "de-DE": "Province italiane",
+            "en-GB": "Province italiane"
+        },
+        "description": {
+            "de-DE": "Province italiane",
+            "en-GB": "Province Italiane"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Vmasciotta\\ProvinceItaliane\\": "src/"
+        }
+    }
+}
